@@ -1,0 +1,26 @@
+php artisan make:controller  Dashboard/AdminController
+php artisan optimize
+
+php artisan make:middleware AdminMiddleware
+
+
+php artisan make:mail ContactLawyerMail -m emails.contactLawyer
+
+php artisan config:cache
+
+
+
+php artisan make:mail SendReponseMail -m emails.reponseMail
+
+
+<a href="{{url('/')}}/{{ Storage::disk('local')->url('file.txt')}}">Download File</a>
+
+    php artisan vendor:publish --provider="Barryvdh\DomPDF\ServiceProvider"
+
+composer require elibyy/tcpdf-laravel
+
+php artisan make:migration add_image_expense_to_expenses_files_table --table=expenses_files
+
+
+php artisan make:migration create_count_expense_by_file_procedure
+php artisan make:migration create_count_fees_by_file_procedure

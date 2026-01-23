@@ -1,0 +1,183 @@
+
+
+.object-fit-cover {
+    object-fit: cover !important;
+}
+
+.card-profile-image {
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.card-profile-image img {
+    object-fit: cover !important;
+}
+
+.blog-profile-image img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.blog-profil-footer > a {
+    gap: 10px;
+}
+
+.blog-body-overview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.blog-title-overview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.faq-preview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2   ;
+    -webkit-box-orient: vertical;
+}
+
+.single_review {
+    display: flex;
+    height: 100%;
+
+}
+
+.lawyer-bio-overview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.lawyer-list-profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+
+    margin-right: 15px;
+}
+
+.text-blue {
+    color: rgb(77, 195, 244);
+}
+
+.name-with-badge {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flex-col {
+    flex-direction: column !important;
+}
+
+.lawyer-card-cta {
+    height: 100%;
+    justify-self: flex-end;
+}
+
+.lawyer-card-content {
+    align-self: flex-start;
+    /* padding-bottom: 35px; */
+}
+
+
+@media screen and (max-width: 992px) {
+    .navigation-portrait .nav-menu>li>a {
+        padding-left: 30px;
+    }
+
+    .mobile_nav a i {
+        font-size: 20px !important;
+    }
+
+    .custom-header-menu {
+        flex-direction: column;
+
+    }
+
+    .lawyer-list-profile {
+        /* display: flex;
+        justify-content: right; */
+    }
+
+    .lawyer-list-profile img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        float: left;
+    }
+}
+
+
+.navigation {
+    display: flex;
+}
+
+
+.nav-menus-wrapper {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-ico {
+    padding-right: 0;
+    padding-left: 32px !important;
+}
+
+.bnc-ico {
+    left: 8px;
+    pointer-events: none;
+}
+
+
+.lawyer-card-cta .btn:hover i {
+    transform: translateX(8px) !important;
+}
+
+
+.show-all-btn:hover i {
+    transform: translateX(8px) !important;
+}
+
+.popup__container .popup__activator {
+    left: 20px;
+    bottom: 15px;
+}
+
+.collapsible-link:before, .accordion .btn-link:before {
+    content: '';
+    width: 14px;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 1rem;
+    left: initial;
+    display: block;
+    transition: all 0.3s;
+  }
+
+  /* Vertical line */
+  .collapsible-link:after, .accordion .btn-link:after {
+    content: '';
+    width: 2px;
+    height: 14px;
+    background: #333;
+    position: absolute;
+    top: calc(50% - 7px);
+    right: calc(1rem + 6px);
+    left: initial;
+    display: block;
+    transition: all 0.3s;
+  }

@@ -1,0 +1,122 @@
+
+img {
+    object-fit: cover !important;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+:root {
+    --ct-logo-lg-height: 35px !important;
+}
+
+.hide-form {
+    display: none !important;
+}
+
+.show-form {
+    display: block !important;
+}
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+/* html[data-menu-color=dark] {
+    --ct-menu-bg: linear-gradient(135deg, #6379c3 0%, #546ee5 60%) !important;
+    --ct-menu-item-color: #cedce4 !important;
+    --ct-menu-item-hover-color: #ffffff !important;
+    --ct-menu-item-active-color: #ffffff !important;
+    --ct-help-box-bg: rgba(255, 255, 255, 0.07) !important;
+} */
+
+html[data-menu-color=dark] {
+    /* --ct-menu-bg: linear-gradient(135deg, #6379c3 0%, #00204c 60%) !important; */
+    --ct-menu-bg: linear-gradient(135deg, #003582 0%, #003582 60%) !important;
+    --ct-menu-item-color: #cedce4 !important;
+    --ct-menu-item-hover-color: #ffffff !important;
+    --ct-menu-item-active-color: #ffffff !important;
+    --ct-help-box-bg: rgba(255, 255, 255, 0.07) !important;
+}
+
+
+.text-right {
+    text-align: right !important;
+}
+
+.links-right a {
+    text-align: right !important;
+}
+
+/* Mobile */
+@media (max-width: 991.98px) {
+
+    html[data-layout=topnav] .topnav {
+        max-height: none !important;
+    }
+
+    .navbar-custom .logo-sm {
+        transform: scale(2);
+    }
+    .arrow-down::before {
+        display: none;
+    }
+}
+
+
+.dash-card {
+    display: flex;
+}
+
+.dash-card i {
+    font-size: 50px !important;
+    color: #457cce !important;
+}
+
+/* RTL */
+.dash-card.rtl i {
+    order: 2;
+}
+
+.dash-card.rtl {
+    direction: rtl;
+}
+
+.dash-card.rtl div {
+    order: 1;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    padding-right: 10px;
+    text-align: right;
+    flex: 1;
+}
+
+.dash-card.rtl div h3 {
+    font-size: 35px !important;
+    font-weight: normal;
+}
+
+
+.category-card h4 {
+    line-height: 25px;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #003582;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #b1b1b1;
+}

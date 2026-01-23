@@ -1,0 +1,88 @@
+.banner-section .content-column .title::before {
+    right: initial !important;
+    left: 0px;
+}
+
+.banner-section .content-column .title {
+    padding-left: 70px;
+}
+
+.mobile-menu .navigation {
+    flex-direction: column;
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    transition: .3s;
+}
+
+.whatsapp-button:hover {
+    scale: 1.1;
+}
+
+.services-block .inner-box .content .icon {
+    right: initial;
+    left: 0;
+}
+
+.services-block .inner-box .content {
+    padding-right: 0;
+    padding-left: 70px;
+}
+
+
+.fact-counter .counter-column .inner {
+    text-align: left;
+}
+
+.fact-counter .counter-column .icon {
+    right: initial;
+    left: 0;
+}
+
+.fact-counter .counter-column .inner .content {
+    padding-right: 5px;
+    padding-left: 64px;
+}
+
+.main-footer .contact-widget ul li {
+    padding-right: 0;
+    padding-left: 35px;
+}
+
+.main-footer .contact-widget ul li .icon {
+    right: initial;
+    left: 0;
+}
+
+.language-switcher:hover .language-menu {
+    top: 75px;
+    left: 0;
+    right: initial;
+}
+
+.popular-posts .post .post-thumb {
+    right: initial;
+    left: 0;
+}
+
+
+.popular-posts .post {
+    padding-left: 80px;
+    padding-right: 5px;
+}
+
+.popular-posts .post-info {
+    padding-left: 20px;
+    padding-right: 0px;
+}
+
+.popular-posts .post-info::before {
+    left: 0;
+    right: initial;
+}

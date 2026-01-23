@@ -1,0 +1,163 @@
+
+
+.add-listing a, .rtl-link {
+    gap: 10px;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    line-height: 22px;
+}
+
+
+.rtl-nav-link > a {
+    display: flex !important;
+    flex-direction: row-reverse;
+    gap: 5px !important;
+    align-items: center !important;
+    /* justify-content: center !important; */
+}
+
+.rtl-nav-link:last-child {
+    border-bottom: none !important;
+}
+
+.rtl-nav-link:first-child {
+    border-bottom: solid 1px #f0f0f0;
+}
+
+.rtl-nav-link a .submenu-indicator, .rtl-link i {
+    /* margin-top: -1px; */
+}
+
+.object-fit-cover {
+    object-fit: cover !important;
+}
+
+.card-profile-image {
+    width: 55px;
+    height: 55px;
+    overflow: hidden;
+}
+
+.card-profile-image img {
+    object-fit: cover !important;
+}
+
+.blog-profile-image img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.blog-profil-footer > a {
+    gap: 10px;
+}
+
+.blog-body-overview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.blog-title-overview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+
+.faq-preview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2   ;
+    -webkit-box-orient: vertical;
+}
+
+.single_review {
+    display: flex;
+    height: 100%;
+
+}
+
+.lawyer-bio-overview {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.lawyer-list-profile img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+
+    margin-left: 15px;
+}
+
+.text-blue {
+    color: rgb(77, 195, 244);
+}
+
+.name-with-badge {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.flex-col {
+    flex-direction: column !important;
+}
+
+.lawyer-card-cta {
+    height: 100%;
+    justify-self: flex-end;
+}
+
+.lawyer-card-content {
+    align-self: flex-start;
+    /* padding-bottom: 35px; */
+}
+
+
+@media screen and (max-width: 992px) {
+    .mobile-reverse {
+        display: flex !important;
+        flex-direction: column-reverse;
+        justify-content: start !important;
+        padding-top: 30px;
+        text-align: right;
+    }
+
+    .navigation-portrait .nav-menu>li>a {
+        padding-right: 30px;
+    }
+
+    .mobile_nav a {
+        display: flex;
+        align-items: center;
+    }
+
+    .mobile_nav a i {
+        font-size: 20px !important;
+    }
+
+    .custom-header-menu {
+        flex-direction: column;
+
+    }
+
+    .lawyer-list-profile {
+        /* display: flex;
+        justify-content: right; */
+    }
+
+    .lawyer-list-profile img {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        float: right;
+    }
+}

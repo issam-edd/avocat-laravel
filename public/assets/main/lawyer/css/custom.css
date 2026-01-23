@@ -1,0 +1,310 @@
+
+
+.edit-zone {
+    display: none;
+}
+
+body.editable section {
+    /* border: 2px solid #e1a122;
+    position: relative; */
+    transition: .3s;
+}
+
+body.editable .inner-container {
+    transition: .3s;
+
+}
+
+body.editable .banner-section {
+    border: 2px solid #e1a122;
+    position: relative;
+}
+
+body.editable section.services-section, body.editable section.welcome-section {
+    border: none;
+}
+
+body.editable .edit-zone a {
+    color: white;
+    display: block;
+    padding: 15px 40px;
+    pointer-events: all;
+    background-color: #e1a122;
+}
+
+body.editable .banner-section .edit-zone {
+    display: block;
+    position: absolute;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+
+
+
+body.editable .welcome-section .edit-zone {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 7;
+}
+
+
+body.editable .welcome-section .edit-zone a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body.editable .welcome-section .inner-container {
+    border: 2px solid #e1a122;
+    position: relative;
+}
+
+body.editable .services-section .inner-container {
+    border: 2px solid #e1a122;
+    position: relative;
+}
+
+body.editable .services-section .edit-zone {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+
+
+body.editable .services-section .edit-zone a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+body.editable .counter-section {
+    border: 2px solid #e1a122;
+    position: relative;
+}
+
+body.editable .counter-section .edit-zone a {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body.editable .counter-section .edit-zone {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+
+
+.language-switcher {
+    position: relative;
+    display: flex !important;
+    align-items: center;
+    gap: 5px;
+}
+
+.mobile-menu .language-switcher a {
+    padding-left: 0 !important;
+}
+
+.mobile-menu .language-switcher {
+    color: #444444 !important;
+}
+
+.mobile-menu .language-switcher i {
+    color: #444444 !important;
+    transition: .3s;
+}
+
+.language-switcher i {
+    color: white;
+    transition: .3s;
+}
+
+.language-switcher:hover i {
+    color: #e1a122;
+}
+
+.fixed-header .language-switcher i {
+    color: #444444;
+}
+
+.fixed-header .language-switcher:hover i {
+    color: #444444;
+}
+
+.language-switcher .language-menu {
+    display: none;
+    color: #444444 !important;
+}
+
+.mobile-menu .language-switcher .language-menu {
+    position: relative !important;
+    top: initial;
+    right: initial;
+}
+
+.language-switcher .language-menu a {
+    transition: .3s;
+    color: #444444 !important;
+}
+
+.mobile-menu .language-switcher
+{
+    display: none !important;
+
+}
+
+.language-switcher .language-menu a:hover {
+    color: #e1a122 !important;
+}
+
+.language-switcher-mobile {
+    display: none !important;
+}
+
+.mobile-menu .language-switcher-mobile {
+    display: block !important;
+}
+
+
+.language-switcher:hover .language-menu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background-color: white;
+    width: 150px;
+    padding: 15px 20px;
+    gap: 5px;
+
+}
+
+.whatsapp-button {
+    position: fixed;
+    bottom: 70px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    z-index: 10;
+    transition: .3s;
+}
+
+.whatsapp-button:hover {
+    scale: 1.1;
+}
+
+.main-slider-carousel .slide .container  {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+}
+
+
+.main-slider-carousel.rtl  .slide-png {
+    position: absolute;
+    bottom: 100px;
+    left: -89px;
+    height: 90%;
+    width: fit-content;
+    max-width: 600px;
+    min-width: 300px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 800px) {
+    .main-slider-carousel.rtl  .slide-png {
+        position: absolute;
+        bottom: 80px !important;
+        left: -89px;
+    }
+
+    .main-slider-carousel.ltr  .slide-png {
+        position: absolute;
+        bottom: 80px !important;
+        right: -89px;
+    }
+
+    .main-slider-carousel .text {
+        font-size: 15px !important;
+        display: none !important;
+    }
+    
+    .main-slider-carousel .title {
+        
+         top: -60px !important;
+    }
+
+    .main-slider-carousel h1 {
+        font-size: 25px !important; 
+        margin-top: -80px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
+.main-slider-carousel.ltr  .slide-png {
+    position: absolute;
+    bottom: 100px;
+    right: -89px;
+    transform: scaleX(-1);
+    height: 90%;
+    width: fit-content;
+    max-width: 600px;
+    min-width: 300px;
+    object-fit: contain;
+}
+
+
+.main-slider-carousel .text {
+    font-size: 18px;
+    max-width: 665px;
+}
+
+.main-slider-carousel.ltr .text {
+    text-align: left;
+    margin-left: 0px !important;
+}
+
+.main-slider-carousel h1 {
+    font-size: 50px;
+}
+
+
+.banner-section .slide::before {
+    background-color: transparent !important;
+}
