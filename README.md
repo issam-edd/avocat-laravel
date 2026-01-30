@@ -46,10 +46,27 @@ This project demonstrates full-stack development using Laravel, including authen
 ---
 
 ## 📷 Screenshots
-Screenshots will be added soon:
-- Lawyer dashboard
-- Client lawyer listing
-- Lawyer profile page
+
+### Homepage
+![Homepage](avocat_screenshots/home.png)
+
+### Details
+![Details](avocat_screenshots/details.png)
+
+### Dashboard
+![Dashboard](avocat_screenshots/dashboard.png)
+
+### Dashboard For Premium Lawyers
+![Dashboard For Premium Lawyers](avocat_screenshots/dashboard_for_premium_lawyer.png)
+
+### List Blog
+![List Blog](avocat_screenshots/list_blog.png)
+
+### List Lawyers
+![List Lawyers](avocat_screenshots/list_lawyers.png)
+
+### Settings
+![Settings](avocat_screenshots/settings.png)
 
 ---
 
